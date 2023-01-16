@@ -1,0 +1,328 @@
+```css
+/*
+* @author: Octacom
+* @date: 2022-03-30
+* @description: Octacom css file for Jommla websites developement
+*/
+/* --------- General styling ---------- */
+
+:root {
+    --octa-color-primary-value: 0, 0%, 0%;
+    --octa-color-secondary-value: 0, 0%, 0%;
+    --octa-color-tertiary-value: 0, 0%, 0%;
+    --octa-color-quaternary-value: 0, 0%, 0%;
+
+    --octa-color-primary: hsl(var(--octa-color-primary-value));
+    --octa-color-secondary: hsl(var(--octa-color-secondary-value));
+    --octa-color-tertiary: hsl(var(--octa-color-tertiary-value));
+    --octa-color-quaternary: hsl(var(--octa-color-quaternary-value));
+
+    --octa-headers-font-family: "Octacom headers", type;
+    --octa-base-font-family: "Octacom texts", type;
+    --octa-base-line-height: 1.5;
+    --octa-text-color: hsl(0, 0%, 20%);
+}
+
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--octa-base-font-family);
+    font-size: 1em;
+    font-weight: 400;
+    line-height: var(--octa-base-line-height);
+    color: var(--octa-text-color);
+    text-rendering: optimizelegibility;
+    border: 0;
+}
+
+ol li, ul li{
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0.5rem 0;
+    font-family: var(--octa-headers-font-family);
+    font-weight: 400;
+    line-height: var(--octa-base-line-height);
+    color: var(--octa-text-color);
+}
+
+h1 {
+    font-size: xrem;
+}
+
+h2 {
+    font-size: xrem;
+}
+
+.itemid-101 h1,
+.itemid-101 h2 {
+    font-size: xrem;
+}
+
+h3 {
+    font-size: xrem;
+}
+
+h4 {
+    font-size: xrem;
+}
+
+h5 {
+    font-size: xrem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+a {
+    cursor: pointer !important;
+}
+
+.item_header h1,
+.item_fulltext h1,
+body:not(.itemid-101) .page_header h1,
+.category_desc h1,
+.view-contact h1,
+.categoriedesc h1 {
+    padding-block: 1.5rem;
+    margin-block: 1.5rem;
+    border-bottom: 1px solid var(--octa-color-primary);
+}
+
+strong {
+    color: var(--octa-color-primary);
+}
+
+.item_fulltext a {
+    font-weight: 700;
+    color: var(--octa-color-secondary);
+}
+
+.item_fulltext a {
+    text-decoration: underline !important;
+}
+
+.item_fulltext a:hover {
+    text-decoration: none !important;
+}
+
+.item_fulltext .btn {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.item_fulltext .btn:hover {
+    text-decoration: none !important;
+}
+
+.sh_rappel {
+    left: -50px !important;
+    width: 50px !important;
+}
+
+*::selection,
+*::-moz-selection {
+    background: var(--octa-color-primary);
+    color: #fff;
+}
+
+.btn-group,
+.content-links,
+.btn.jmodedit {
+    display: none !important;
+}
+
+.item_fulltext .btn.fa:before {
+    position: relative;
+    left: 5px;
+    top: 3px;
+    font-size: 20px;
+}
+
+/*------------listes---------------*/
+/*check \f00c check circle \f058 chevron simple \f105 chevrons double \f101 arrow circle \f35a arrow \f061 tag \f02b*/
+.item_fulltext li {
+    padding-left: 0.5rem;
+    margin-left: 1rem;
+    position: relative;
+    line-height: 1.5;
+}
+
+.item_fulltext li::marker {
+    color: var(--octa-color-primary);
+    font-weight: 700;
+    content: "";
+    font-family: FontAwesome;
+    font-size: 20px;
+    position: absolute;
+    left: -1rem;
+    top: 3px;
+}
+
+/*------------ Joomla modules ---------------*/
+
+#tarteaucitronAlertSmall #tarteaucitronManager #tarteaucitronDot #tarteaucitronDotGreen {
+    background-color: var(--octa-color-primary) !important;
+}
+
+#tarteaucitronAlertSmall #tarteaucitronManager {
+    color: var(--octa-color-primary) !important;
+}
+
+/*-------------------Rappel immédiat -----------------*/
+button.mod_rappel_form_btn {
+    background: var(--octa-color-primary) !important;
+}
+
+/*------------------SocialLinks------------------------*/
+.rt-social-buttons .rt-social-icon {
+    background-color: var(--octa-color-primary) !important;
+}
+
+.rt-social-buttons .rt-social-text {
+    background: var(--octa-color-primary);
+    font-size: 0.85rem !important;
+    font-weight: 400 !important;
+}
+
+.rt-social-buttons {
+    top: 400px !important;
+}
+
+/*--------------------FORM----------------------*/
+.mod_tm_ajax_contact_form textarea,
+.mod_tm_ajax_contact_form input[type="text"],
+.mod_tm_ajax_contact_form input[type="password"],
+.mod_tm_ajax_contact_form input[type="datetime"],
+.mod_tm_ajax_contact_form input[type="datetime-local"],
+.mod_tm_ajax_contact_form input[type="date"],
+.mod_tm_ajax_contact_form input[type="month"],
+.mod_tm_ajax_contact_form input[type="time"],
+.mod_tm_ajax_contact_form input[type="week"],
+.mod_tm_ajax_contact_form input[type="number"],
+.mod_tm_ajax_contact_form input[type="email"],
+.mod_tm_ajax_contact_form input[type="url"],
+.mod_tm_ajax_contact_form input[type="search"],
+.mod_tm_ajax_contact_form input[type="tel"],
+.mod_tm_ajax_contact_form input[type="color"],
+.uneditable-input {
+    background-color: transparent;
+    border: 1px solid var(--octa-color-primary);
+    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 50px;
+    color: var(--octa-text-color);
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    padding: 16px 19px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0px;
+    vertical-align: middle;
+    font-family: var(--octa-base-font-family);
+}
+
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.mod_tm_ajax_contact_form input:focus:invalid:focus,
+.mod_tm_ajax_contact_form textarea:focus:invalid:focus,
+.mod_tm_ajax_contact_form select:focus:invalid:focus {
+    border-color: var(--octa-color-primary);
+}
+
+.mod_tm_ajax_contact_form input::placeholder,
+.mod_tm_ajax_contact_form textarea::placeholder {
+    color: var(--octa-text-color);
+}
+
+.mod_tm_ajax_contact_form input:focus::placeholder,
+.mod_tm_ajax_contact_form textarea:focus::placeholder {
+    color: var(--octa-color-primary);
+}
+
+.g-recaptcha>div {
+    display: block;
+    margin: auto;
+}
+
+.mod_tm_ajax_contact_form .checkbox-area {
+    text-align: center;
+}
+.control-group-button {
+    display: flex !important;
+    justify-content: center;
+}
+
+/*------------------Ba Gallery-------------------*/
+.ba-gallery .categories-description a.btn {
+    background: var(--octa-color-primary);
+    padding: 1.5rem 3rem;
+    border-radius: 3rem;
+}
+
+.ba-gallery .categories-description a.btn:hover,
+.ba-gallery .categories-description a.btn:focus,
+.ba-gallery .categories-description a.btn:active {
+    background: var(--octa-color-secondary);
+}
+
+.ba-gallery .ba-goback>a:hover,
+.item_fulltext .ba-btn.ba-current,
+.item_fulltext .ba-btn:hover {
+    background: var(--octa-color-primary) !important;
+}
+
+.item_fulltext .ba-gallery .ba-goback a,
+.item_fulltext .ba-btn {
+    text-decoration: none !important;
+}
+/*------------------------Custom code-----------------------------*/
+
+.flexQuarter, .flexMid, .flexTertiary{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap:1rem;
+}
+.flexTertiary > div{
+  flex: calc(33% - 1rem);
+}
+.flexMid > div{
+  flex: calc(50% - 1rem);
+}
+.flexQuarter > div {
+  flex: calc(25% - 1rem);
+}
+
+/*--------------------- Media querries --------------------------*/
+@media (max-width: 80rem) {}
+
+@media (max-width: 55rem) {}
+
+@media (max-width: 30rem) {}
+```

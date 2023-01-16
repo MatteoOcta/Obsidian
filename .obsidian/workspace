@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "f42eda570aed0297",
+    "type": "split",
+    "children": [
+      {
+        "id": "50eaed3b7282263f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Home/CSS/Intégration.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a280f04c466cdbd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "e38d344c51d22cd9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3b30f1b1e274ead",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "13b1569b7de9ccd5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "867f5a89b662aa1d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 356.5
+  },
+  "right": {
+    "id": "f350fe3cba99add5",
+    "type": "split",
+    "children": [
+      {
+        "id": "29966d1bee0d19ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "239acd7f4a352d37",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Home/CSS/Intégration.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "77f653b58f7d11cc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home/CSS/Intégration.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "40b3f43941bd6714",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9f100932ca52e73c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home/CSS/Intégration.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 250.5,
+    "collapsed": true
+  },
+  "active": "50eaed3b7282263f",
+  "lastOpenFiles": [
+    "Home/CSS/Git.md",
+    "Home/CSS/Flex.md",
+    "Home/Liens Utiles.md",
+    "Verif.md",
+    "Home/Verification.md",
+    "Home/CSS/Page d'accueil.md",
+    "Temp.md",
+    "Home/Template/Alfa.md",
+    "Home/Template/Template.md",
+    "Home/CSS/Intégration.md"
+  ]
+}
