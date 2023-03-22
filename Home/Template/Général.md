@@ -81,3 +81,34 @@ a.btn:hover{
   content:url("../images/ico/ico-3.png")
 }
 ```
+
+```html
+<div class="flexThird">
+    <div><h3>Nous situer</h3> <p class="custom-ico-1">#</div>
+    <div><h3>Nous joindre</h3> <p class="custom-ico-2"><a href="#"></a></p>#</div>
+    <div><h3>Nous contacter</h3> <p class="custom-ico-3"><a href="#">#</a></p></div>
+</div>
+```
+
+## Custom ico top
+```css
+[class*="customico-top"]{
+  font-size:0;
+  float: left;
+  line-height: 0;
+}
+
+[class*="customico-top"]:before{
+  line-height: 40px;
+  margin: 0 14px 0 2px;
+  font-size:1rem;
+}
+
+.customico-top_ico1:before{
+  content:url("../images/ico/ico1.png");
+}
+
+.customico-top_ico2:before{
+  content:url("../images/ico/ico2.png");
+}
+```

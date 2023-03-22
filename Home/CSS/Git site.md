@@ -303,19 +303,19 @@ input[type="checkbox"] {
 }
 /*------------------------Custom code-----------------------------*/
 
-.flexQuarter, .flexMid, .flexTertiary{
+.flex-quarter, .flex-mid, .flex-third{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap:1rem;
 }
-.flexTertiary > div{
+.flex-third > div{
   flex: calc(33% - 1rem);
 }
-.flexMid > div{
+.flex-mid > div{
   flex: calc(50% - 1rem);
 }
-.flexQuarter > div {
+.flex-quarter > div {
   flex: calc(25% - 1rem);
 }
 

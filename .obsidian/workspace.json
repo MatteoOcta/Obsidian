@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3f34a4c0ef6f29d8",
+        "id": "7094a2e4c007d4ee",
         "type": "tabs",
         "children": [
           {
-            "id": "149a02c110bdc4d7",
+            "id": "dfa7729772f3ed62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/Template/Général.md",
-                "mode": "source",
+                "file": "Home/CSS/Intégration.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "item",
+                "query": "octacom",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/Template/Général.md",
+                "file": "Home/CSS/Intégration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/Template/Général.md",
+                "file": "Home/CSS/Intégration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/Template/Général.md"
+                "file": "Home/CSS/Intégration.md"
               }
             }
           }
@@ -146,17 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "149a02c110bdc4d7",
+  "active": "dfa7729772f3ed62",
   "lastOpenFiles": [
-    "Home/Template/Military.md",
-    "Home/Template/Template.md",
-    "Home/Template/Alfa.md",
-    "Untitled.md",
-    "Home/CSS/Git site.md",
     "Home/CSS/Dev site.md",
-    "Home/CSS/Intégration.md",
+    "Home/Template/Military.md",
+    "Home/Template/Love.md",
+    "Home/Template/Général.md",
+    "Home/Template/Alfa.md",
+    "Home/CSS/Git site.md",
     "Home/CSS/CSS.md",
+    "Home/CSS/Intégration.md",
+    "Home/PHP/HELP !.md",
     "Home/CSS/Flex.md",
-    "Home/CSS/CSS tricks.md"
+    "Home/CSS/CSS tricks.md",
+    "Temp.md"
   ]
 }

@@ -1,25 +1,3 @@
-## Custom ico top
-```css
-[class*="customico-top"]{
-  font-size:0;
-  float: left;
-  line-height: 0;
-}
-
-[class*="customico-top"]:before{
-  line-height: 40px;
-  margin: 0 14px 0 2px;
-  font-size:1rem;
-}
-
-.customico-top_ico1:before{
-  content:url("../images/ico/ico1.png");
-}
-
-.customico-top_ico2:before{
-  content:url("../images/ico/ico2.png");
-}
-```
 
 ## Menu flex
 ```css
@@ -35,19 +13,13 @@
 
 ```css
 .mod-newsflash-adv__center.about.cols-2 .row,.body__home .position-3 .row{
-
-  display: flex;
-
-  flex-wrap: wrap;
-
-  align-items: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
-
+  
 .mod-newsflash-adv__center.about.cols-2 .row article, .body__home .position-3 .row div{
-
-  flex: 50%;
-
+  flex: 50%;
 }
 ```
 
@@ -156,4 +128,23 @@ justify-content: center;
   background:var(--octa-color-primary);
 }
 
+```
+
+Testimonials 
+
+![[Pasted image 20230126131345.png]]
+
+```css
+.testimonials .row{
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.testimonials .row > article .item_content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+}
 ```

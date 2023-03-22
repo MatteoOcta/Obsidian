@@ -2,15 +2,11 @@
 
 ```css
 .top-menu span.fa{
-
   font-size:0px;
-
 }
 
 .top-menu span.fa:before{
-
   font-size:1rem;
-
 }
 ```
 

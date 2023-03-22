@@ -60,12 +60,8 @@
 
   
 
-## Youtube 
-```html
-<div class="youtube_player" videoID="video_id" width="750px" height="500px" theme="light" rel="1" controls="1" showinfo="1" autoplay="0" mute="0"></div>
-```
 
-### CSS Youtube
+### CSS YouTube
 
 ```css
 .youtube_player iframe{
@@ -73,7 +69,7 @@
  }
 ```
 
-## Marcaron
+## Macaron
 
  ```css
 .macaron {
@@ -145,19 +141,19 @@
 
 ```css
 .content_lr > div:nth-child(odd){
-  margin-left: 20px;
-  border-left: var(--octa-color-primary) 4px solid;
-  padding-left: 20px;
-  text-align: left;
-  margin-bottom: 10px;
+ margin-left: 20px;
+ border-left: var(--octa-color-primary) 4px solid;
+ padding-left: 20px;
+ text-align: left;
+ margin-bottom: 10px;
 }
 
 .content_lr > div:nth-child(even){
-  margin-right: 20px;
-  border-right: var(--octa-color-primary) 4px solid;
-  padding-right: 20px;
-  text-align: right;
-  margin-bottom: 10px;
+ margin-right: 20px;
+ border-right: var(--octa-color-primary) 4px solid;
+ padding-right: 20px;
+ text-align: right;
+ margin-bottom: 10px;
 }
 ```
 
@@ -173,4 +169,139 @@
 <p> </p>
 </div>
 </div>
+```
+
+![[Pasted image 20230216111759.png]]
+
+## Bloc un sur deux + img + ico + background paralax
+
+Exemple : https://dev.nbnettoyage.fr/services
+
+```css
+.block-LR > div:nth-child(even){
+  flex-direction: row-reverse;
+  text-align: end;
+}
+.block-LR > div:nth-child(even) .block-title{
+  flex-direction: row-reverse;
+}
+.block-LR{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.block-LR > div{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid var(--octa-color-primary);
+  border-radius: 10px;
+  padding: 20px;
+  background: url("/images/content/bg-contenu.png") fixed no-repeat center center;
+}
+
+.block-title{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  column-gap: 34px;
+}
+.block-LR h2:after{
+  content:" ";
+  border-top: 2px solid var(--octa-color-primary);
+  width: 100%;
+  max-width: 50px;
+  position: relative;
+  display: block;
+  top:2px;
+}
+
+.block-LR  div.block-text{
+  flex:80%;
+}
+.block-LR  div.block-img{
+  flex:20%;
+  display: flex;
+  row-gap: 5px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 786px) {
+  .block-LR > div > div{
+    flex:100% !important;
+  }
+  .block-LR div.block-img {
+    align-items: center;
+  }
+}
+```
+
+```html
+<div class="block-LR">
+  <div>
+    <div class="block-text">
+      <div class="block-title">
+        <img
+          src=""
+          alt=""
+          title=""
+        /> // ICO
+        <h2></h2>
+      </div>
+      <h3></h3> // TITLE
+      <p></p> // CONTENT
+    </div>
+    <div class="block-img">
+      <div>
+        <img
+          src=""
+          alt=""
+          title=""
+        />
+      </div>
+      <div>
+        <img
+	      src=""
+          alt=""
+          title=""
+        />
+      </div>
+    </div>
+  </div>
+   <div>
+    <div class="block-text">
+      <div class="block-title">
+        <img
+          src=""
+          alt=""
+          title=""
+        /> // ICO
+        <h2></h2>
+      </div>
+      <h3></h3> // TITLE
+      <p></p> // CONTENT
+    </div>
+    <div class="block-img">
+      <div>
+        <img
+          src=""
+          alt=""
+          title=""
+        />
+      </div>
+      <div>
+        <img
+	      src=""
+          alt=""
+          title=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
 ```

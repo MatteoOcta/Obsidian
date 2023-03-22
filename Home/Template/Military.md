@@ -8,6 +8,16 @@
 }
 ```
 
+## Menu Top Flex
+
+```css
+#top .row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+```
+
 ## Bloc vidéo 
 
 ```css
@@ -66,6 +76,9 @@
 }
 ```
 
+
+![[Pasted image 20230216132516.png]]
+
 ## Tabs Flex 
 ```css
 .tab-content .mod-article-single .item__module{
@@ -83,4 +96,36 @@
 .tab-content .mod-article-single .item__module > div.item_content {
   flex:80%;
   max-width: 65%;
+}
+ul.nav-tabs a{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+}
+ul.nav-tabs{
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+```
+
+![[Pasted image 20230216132614.png]]
+## Bloc 3 
+
+```css
+.mod-newsflash-adv__center.cols-3 .row{
+  display: flex;
+  flex-wrap: wrap;
+   flex-direction: row;
+  justify-content: space-between;
+  min-height: 100%;
+}
+.mod-newsflash-adv__center.cols-3 .row .item {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
 ```
