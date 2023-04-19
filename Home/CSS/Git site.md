@@ -1,3 +1,5 @@
+https://github.com/OctacomFR/Joomla-3.x-websites-developement/blob/main/octacom.css
+
 ```css
 /*
 * @author: Octacom
@@ -161,7 +163,7 @@ strong {
 .item_fulltext li::marker {
     color: var(--octa-color-primary);
     font-weight: 700;
-    content: "";
+    content: "\f058";
     font-family: FontAwesome;
     font-size: 20px;
     position: absolute;
@@ -310,13 +312,13 @@ input[type="checkbox"] {
   gap:1rem;
 }
 .flex-third > div{
-  flex: calc(33% - 1rem);
+  flex-basis: calc(33% - 1rem);
 }
 .flex-mid > div{
-  flex: calc(50% - 1rem);
+  flex-basis: calc(50% - 1rem);
 }
 .flex-quarter > div {
-  flex: calc(25% - 1rem);
+  flex-basis: calc(25% - 1rem);
 }
 
 /*--------------------- Media querries --------------------------*/

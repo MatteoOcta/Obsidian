@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dfa7729772f3ed62",
+            "id": "d3799c8061c8de59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/CSS/Intégration.md",
-                "mode": "preview",
+                "file": "Home/Module/Vik restaurant.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "octacom",
+                "query": "border",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/CSS/Intégration.md",
+                "file": "Home/Module/Vik restaurant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/CSS/Intégration.md",
+                "file": "Home/Module/Vik restaurant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/CSS/Intégration.md"
+                "file": "Home/Module/Vik restaurant.md"
               }
             }
           }
@@ -146,19 +146,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dfa7729772f3ed62",
+  "active": "d3799c8061c8de59",
   "lastOpenFiles": [
-    "Home/CSS/Dev site.md",
-    "Home/Template/Military.md",
-    "Home/Template/Love.md",
-    "Home/Template/Général.md",
     "Home/Template/Alfa.md",
-    "Home/CSS/Git site.md",
-    "Home/CSS/CSS.md",
-    "Home/CSS/Intégration.md",
-    "Home/PHP/HELP !.md",
-    "Home/CSS/Flex.md",
+    "Home/Module/Vik restaurant.md",
+    "Home/Module",
+    "Home/Template/Général.md",
+    "Home/Template/Military.md",
+    "Home/Template/Template.md",
     "Home/CSS/CSS tricks.md",
+    "Home/CSS/Dev site.md",
+    "Home/CSS/Intégration.md",
+    "Home/Template/Love.md",
+    "Home/CSS/Flex.md",
+    "Home/Liens Utiles.md",
+    "Home/CSS/Git site.md",
+    "Home/PHP/HELP !.md",
+    "Home/HTML/HTML.md",
+    "Home/PHP/PHP.md",
+    "Home/Verification.md",
+    "Home/CSS/CSS.md",
     "Temp.md"
   ]
 }

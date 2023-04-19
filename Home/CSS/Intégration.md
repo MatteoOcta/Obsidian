@@ -11,37 +11,37 @@
 
 .encart
 {
-  position: relative;
-  text-align: center;
-  padding: 50px 100px;
-  margin: 50px 0;
-  font-size: 1rem;
+	position: relative;
+	text-align: center;
+	padding: 50px 100px;
+	margin: 50px 0;
+	font-size: 1rem;
 }
 
 .encart::before
 {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0;
-  width: 17.5%;
-  height: 40%;
-  border-bottom: 3px solid #B52F29;
-  border-left: 3px solid #B52F29;
-  transition: all ease 0.4s;
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+	width: 17.5%;
+	height: 40%;
+	border-bottom: 3px solid #B52F29;
+	border-left: 3px solid #B52F29;
+	transition: all ease 0.4s;
 }
 
 .encart::after
 {
-  position: absolute;
-  content: "";
-  right: 0;
-  top: 0;
-  width: 17.5%;
-  height: 40%;
-  border-top: 3px solid #B52F29;
-  border-right: 3px solid #B52F29;
-  transition: all ease 0.4s;
+	position: absolute;
+	content: "";
+	right: 0;
+	top: 0;
+	width: 17.5%;
+	height: 40%;
+	border-top: 3px solid #B52F29;
+	border-right: 3px solid #B52F29;
+	transition: all ease 0.4s;
 }
 
   
@@ -53,8 +53,8 @@
 .encart:active::after,
 .encart:focus::after
 {
-  width: calc(100% - 3px); /* On soustrait l'épaisseur de la bordure*/
-  height: calc(100% - 3px);
+	width: calc(100% - 3px); /* On soustrait l'épaisseur de la bordure*/
+	height: calc(100% - 3px);
 }
 ```
 
@@ -304,4 +304,44 @@ Exemple : https://dev.nbnettoyage.fr/services
   </div>
 </div>
 
+```
+
+## Effet NEON 
+
+```css 
+box-shadow:
+    0 0 8px #fff,
+    inset 0 0 8px #fff,
+    0 0 16px var(--primary-color),
+    inset 0 0 16px var(--primary-color),
+    0 0 32px var(--primary-color),
+    inset 0 0 32px var(--primary-color); 
+border: 2px solid white;
+```
+
+## Tableau CSS
+
+```css
+table.custom{
+  min-width: 100%;
+  margin-bottom:30px ;
+}
+table.custom colgroup col{
+min-width: 90%;
+}
+table.custom colgroup col:last-child{
+  min-width: 10%;
+}
+table.custom tbody tr td:last-child{
+  text-align: right;
+}
+table.custom thead th{
+  text-align: center;
+  font-size: 1.5rem;
+  background: hsl(var(--octa-color-primary-value));
+  padding: 10px 0;
+}
+table.custom td{
+  line-height: 40px;
+}
 ```

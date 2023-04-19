@@ -14,4 +14,24 @@
 ```html
 <div class="youtube_player" videoID="video_id" width="750px" height="500px" theme="light" rel="1" controls="1" showinfo="1" autoplay="0" mute="0"></div>
 ```
-[[Intégration ]]
+[[Intégration#CSS YouTube]]
+
+
+## Tableau 
+
+```html
+<table class="custom"><colgroup> <col /> <col /> </colgroup>
+<thead>
+<tr>
+<th colspan="2"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+```
+[[Intégration#Tableau CSS]]
