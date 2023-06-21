@@ -18,6 +18,74 @@
 }
 ```
 
+## Title Slider 
+
+```css
+/* slider */
+#swiper-slider_208 .flex-title
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.5%;
+  font-family: var(--title-font);
+  color: var(--primary-color);
+}
+
+#swiper-slider_208 .flex-title .big-title
+{
+  position: relative;
+  font-size: 4.0625rem;
+  line-height: 4.0625rem;
+  font-weight: 700;
+}
+
+#swiper-slider_208 .flex-title .big-title::after
+{
+  position: absolute;
+  content: "";
+  width: 100%;
+  left: 0;
+  bottom: -15px;
+  border-bottom: 5px solid var(--primary-color);
+}
+
+#swiper-slider_208 .flex-title .thin-title
+{
+  position: relative;
+  font-size: 2.6875rem;
+  line-height: 2.6875rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#swiper-slider_208 .flex-title .bold-title
+{
+  position: relative;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#swiper-slider_208 .flex-title p
+{
+  max-width: fit-content;
+  padding-bottom: 0;
+}
+```
+
+### HTML
+```html
+<div class="flex-title">
+<p class="big-title">Camille Rigaud</p>
+<div class="two-row-title">
+<p class="thin-title">Bien-être</p><p class="bold-title">psychologie</p>
+</div>
+</div>
+<a class="btn btn-info readmore" href="/contact-prise-de-rendez-vous" target="_self"><span>Me contacter</span></a>
+
+```
 ## Bloc vidéo 
 
 ```css

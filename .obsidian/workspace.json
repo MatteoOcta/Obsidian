@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7094a2e4c007d4ee",
+        "id": "4e31408942171105",
         "type": "tabs",
         "children": [
           {
-            "id": "d3799c8061c8de59",
+            "id": "cf5cb88f483efd23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/Module/Vik restaurant.md",
-                "mode": "source",
+                "file": "Home/CSS/Git site.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "border",
+                "query": "encar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,21 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "d857a08c2db270eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 251.5
   },
   "right": {
     "id": "f350fe3cba99add5",
@@ -86,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/Module/Vik restaurant.md",
+                "file": "Home/CSS/Git site.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/Module/Vik restaurant.md",
+                "file": "Home/CSS/Git site.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/Module/Vik restaurant.md"
+                "file": "Home/CSS/Git site.md"
               }
             }
           }
@@ -146,26 +155,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3799c8061c8de59",
+  "active": "13b1569b7de9ccd5",
   "lastOpenFiles": [
-    "Home/Template/Alfa.md",
-    "Home/Module/Vik restaurant.md",
-    "Home/Module",
-    "Home/Template/Général.md",
-    "Home/Template/Military.md",
-    "Home/Template/Template.md",
-    "Home/CSS/CSS tricks.md",
     "Home/CSS/Dev site.md",
-    "Home/CSS/Intégration.md",
-    "Home/Template/Love.md",
-    "Home/CSS/Flex.md",
-    "Home/Liens Utiles.md",
-    "Home/CSS/Git site.md",
     "Home/PHP/HELP !.md",
-    "Home/HTML/HTML.md",
-    "Home/PHP/PHP.md",
+    "Home/CSS/Intégration.md",
+    "Home/Template/Studio.md",
+    "Home/Template/Military.md",
+    "Home/CSS/Git site.md",
+    "Home/CSS/Flex.md",
+    "Home/Module/Ba-Gallery.md",
+    "Home/JS/JS.md",
     "Home/Verification.md",
+    "Home/Module/Vik restaurant.md",
+    "Home/CSS/CSS tricks.md",
+    "Home/Template/Général.md",
     "Home/CSS/CSS.md",
+    "Home/Template/Love.md",
+    "Home/Template/Ramirezz.md",
+    "Home/Template/Template.md",
+    "Home/Template/Alfa.md",
+    "Home/HTML/HTML.md",
+    "Home/Template/Animal.md",
+    "Home/Liens Utiles.md",
+    "Home/PHP/PHP.md",
+    "Home/Attachment/Pasted image 20221221095950.png",
+    "Home/JS",
+    "Home/Module",
     "Temp.md"
   ]
 }

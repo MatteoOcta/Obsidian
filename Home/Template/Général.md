@@ -1,3 +1,13 @@
+## Import font 
+
+```css
+@font-face {
+  font-family: "Photograph-Signature";
+  src: url("../fonts/Photograph-Signature.ttf") format("truetype");
+}
+```
+
+
 ## Btn
 
 ```css

@@ -39,12 +39,6 @@ Icone a retourver sur fontawesome.com/
 }
 ```
 
-## Code_404 
-
-```html
-<h1>Désolé!<h1><h3>Page introuvable</h3><p>La page demandée n'est plus disponible.<br>Elle a peut-être été supprimée ou déplacée</p>
-```
-
 ## Item Testimonials flex
 
 
@@ -68,3 +62,41 @@ des belles réalisations en ferronnerie... Professionnels à votre écoute.  Nou
 <div><h3>P. Mathieux</h3>
 <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div></div>
 ```
+
+
+## Carrousel 
+```css
+
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.gallery.js-flickity ol li:before{
+  content:none;
+}
+
+.flickity-page-dots .dot.is-selected{
+  width: 13px !important;
+  height: 13px !important;
+}
+.flickity-page-dots .dot{
+  background: #d8decf !important;
+  opacity: 1 !important;
+}
+
+.gallery-cell:not(.gallery-cell.is-selected){
+  opacity: 0.2;
+}
+```
+
+```html
+<link href="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css" rel="stylesheet">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+```
+
+https://codepen.io/desandro/pen/emjrBm
+
