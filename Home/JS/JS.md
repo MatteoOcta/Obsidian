@@ -10,6 +10,8 @@ if(videoConst){ //On vient vérifier que la const a bien récupere une balise
 
 ### Menu burger en menu principal 
 
+Exemple : https://www.empiremariage.com/ 
+
 ```js
 
 function toggleMenu(menu, backdrop){ //On ajoute la classe visible si elle n'est pas mise et inversement. 
@@ -36,4 +38,30 @@ window.addEventListener("DOMContentLoaded", (event) => { //On attend que la page
 	});
 });
 
+```
+
+### Récupérer une partie d'une chaine de caractère 
+
+Il est important de savoir qu'une chaine de caractère type string est enfaite un tableau de caractère 
+
+On peux donc récupérer  juste une lettre en prenant sa position 
+```js 
+a[n - 1];
+```
+
+Mais on peux aussi récupérer toute une partie 
+```js
+const str = 'The quick brown fox jumps over the lazy dog.';
+
+console.log(str.slice(31));
+// Expected output: "the lazy dog."
+
+console.log(str.slice(4, 91));
+// Expected output: "quick brown fox"
+```
+
+Il est possible de récupérer l'emplacement d'une chaine de caractère 
+```js
+a.indexOf('is');
+// Start: myFunction("praise") | Result : 3
 ```

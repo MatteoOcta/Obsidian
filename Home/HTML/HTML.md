@@ -14,7 +14,7 @@
 ```html
 <div class="youtube_player" videoID="video_id" width="750px" height="500px" theme="light" rel="1" controls="1" showinfo="1" autoplay="0" mute="0"></div>
 ```
-[[Intégration#CSS YouTube]]
+[[3.Intégration#CSS YouTube]]
 
 
 ## Tableau 
@@ -34,4 +34,4 @@
 </tbody>
 </table>
 ```
-[[Intégration#Tableau CSS]]
+[[3.Intégration#Tableau CSS]]
