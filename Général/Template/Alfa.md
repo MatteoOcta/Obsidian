@@ -54,10 +54,9 @@ h3:after{
 ## Media menus top
 ```css
 @media (max-width: 970px) {
-  #t3-header div.row .col-sm-5{
-    flex:100%;
-  }
-  ul.top-menu > li{
+	#t3-header div.row .col-sm-5{
+	flex:100%;
+  }ul.top-menu > li{
     padding-left: 44px;
   }
   ul.top-menu{

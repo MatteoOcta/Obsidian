@@ -11,6 +11,7 @@ if(videoConst){ //On vient vérifier que la const a bien récupere une balise
 ### Menu burger en menu principal 
 
 Exemple : https://www.empiremariage.com/ 
+Exemple : https://dev.croque-levain.fr/ (Horizontal La Diligence )
 
 ```js
 

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ce4b746a1a7899bc",
+        "id": "4daa8c2a2a3e3cd1",
         "type": "tabs",
         "children": [
           {
-            "id": "e54655fe590c7056",
+            "id": "5294eed711fa9e65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/CSS/2.Dev site.md",
-                "mode": "preview",
+                "file": "Général/PHP/HELP !.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "table",
+                "query": "urls",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/CSS/2.Dev site.md",
+                "file": "Général/PHP/HELP !.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/CSS/2.Dev site.md",
+                "file": "Général/PHP/HELP !.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -134,11 +134,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/CSS/2.Dev site.md"
+                "file": "Général/PHP/HELP !.md"
+              }
+            }
+          },
+          {
+            "id": "86138c464a64eb19",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -154,36 +165,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e54655fe590c7056",
+  "active": "5294eed711fa9e65",
   "lastOpenFiles": [
-    "Home/CSS/3.Intégration.md",
-    "Home/CSS/Flex.md",
-    "Home/CSS/CSS.md",
-    "Home/CSS/CSS tricks.md",
-    "Home/PHP/HELP !.md",
-    "Home/PHP/PHP.md",
-    "Home/Template/Alfa.md",
-    "Home/Template/Animal.md",
-    "Home/Template/Général.md",
-    "Home/Template/Love.md",
-    "Home/Template/Military.md",
-    "Home/Home.md",
-    "Home/Liens Utiles.md",
-    "Home/Verification.md",
-    "Home/CSS/2.Dev site.md",
-    "Home/CSS/1.Git site.md",
-    "Home/JS/JS.md",
-    "Home/Attachment/Pasted image 20230216111759.png",
-    "Home/HTML/HTML.md",
-    "Home/Template/Ramirezz.md",
+    "Général/PHP/PHP.md",
+    "Général/PHP/HELP !.md",
+    "Général/Template/Template.md",
+    "Général/CSS/3.Intégration.md",
+    "Général/CSS/2.Dev site.md",
+    "Général/CSS/CSS tricks.md",
+    "Général/CSS/CSS.md",
+    "Général/CSS/Flex.md",
+    "Général/CSS/1.Git site.md",
+    "Réponses.md",
+    "Général/Template/Paris.md",
+    "Général/Template/FF2I.md",
+    "Pasted image 20231123163637.png",
+    "Général/Template/Alfa.md",
+    "Général/Template/Animal.md",
+    "Général/Attachment/css-flexbox-poster.png",
+    "Général/Attachment/Pasted image 20231123145938.png",
+    "Général/Attachment/Pasted image 20230907131425.png",
+    "Général/Attachment/Pasted image 20230216132614.png",
+    "Général/Attachment/Pasted image 20230216132516.png",
+    "Général/Attachment/Pasted image 20230216111759.png",
+    "Général/Attachment/Pasted image 20230213142402.png",
+    "Général/Attachment/Pasted image 20230116131014.png",
+    "Général/Attachment/Pasted image 20221221095950.png",
+    "Général/Template/Love.md",
+    "Général/HTML/HTML.md",
+    "Général/Template/Général.md",
+    "Général/Module/Vik restaurant.md",
+    "Général/Module/Ba-Gallery.md",
+    "Général/JS/JS.md",
+    "Général/Template/Studio.md",
+    "Général/Template/Military.md",
+    "Général/Template/Ramirezz.md",
     "htaccess.md",
-    "Home/Template/Studio.md",
-    "Home/Template/Template.md",
-    "Home/Module/Ba-Gallery.md",
-    "Home/Module/Vik restaurant.md",
-    "Home/Attachment/Pasted image 20221221095950.png",
-    "Home/JS",
-    "Home/Module",
-    "Temp.md"
+    "2023-09-25.md",
+    "Wordpress",
+    "Wordpress/Elementor",
+    "Untitled 3.canvas",
+    "Untitled 4.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Général/JS",
+    "Général/Module"
   ]
 }

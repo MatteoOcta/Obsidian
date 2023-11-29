@@ -1,3 +1,13 @@
+## Appeler un article / position
+
+```html
+- {loadposition position,[style]}
+- {loadmodule mod_type,the title,[style]}
+- {loadmoduleid moduleId}
+```
+
+
+
 ## Import font 
 
 ```css

@@ -1,6 +1,7 @@
 {
   "translucency": false,
   "baseFontSize": 19,
-  "accentColor": "",
-  "cssTheme": "Ruby"
+  "accentColor": "#00d1e0",
+  "cssTheme": "Encore",
+  "nativeMenus": true
 }

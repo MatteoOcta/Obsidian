@@ -1,1 +1,0 @@
-module=CoreAdminHome&action=optOut&language=fr&backgroundColor=&fontColor=fff&fontSize=1rem&fontFamily='Lato', sans-serif"
