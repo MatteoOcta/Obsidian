@@ -41,6 +41,65 @@ window.addEventListener("DOMContentLoaded", (event) => { //On attend que la page
 
 ```
 
+### Owl carousel selection du l'item central 
+
+```js
+function changeActived( ) {
+	var activeConst = document.querySelectorAll(".position-5  div.owl-stage > div.owl-item.active");
+	let screenWidth = window.screen.width;
+	var count = 0;
+
+	// il y a 5 item afficher donc on prend celui du milieu 
+	var countmax = 3
+
+	if (screenWidth < 1200){
+		countmax = 2
+	}
+	if(screenWidth < 450){
+		countmax = 1
+	}
+	
+	activeConst.forEach(function (active) {
+		count = count + 1;
+		if (count === countmax) {
+			active.classList.add("actived");
+		}
+		else{
+			active.classList.remove("actived");
+		}
+	});
+}
+
+
+document.addEventListener('DOMContentLoaded', (event) => {
+	
+	const navigationLeftConst = document.querySelector(".owl-nav > div.owl-prev");
+	const navigationRightConst = document.querySelector(".owl-nav > div.owl-next");
+	const carouselConst = document.querySelector(".owl-stage");
+	
+	//1ere check a l'initialisation de la page 
+	changeActived();
+	//verification des constantes
+	if(!navigationLeftConst || !navigationRightConst){
+		throw new Error("la navigation est vide");
+	}
+	if(!carouselConst){
+		throw new Error("le carousel est vide");
+	}
+	//En fonction du scroll horizontal 
+	carouselConst.addEventListener("transitionend", function(){
+		changeActived();
+	});
+	//En fonction du click de fleche a gauche 
+	navigationLeftConst.addEventListener("click", function(){
+		changeActived();
+	});
+	//En fonction du click de fleche a droite
+	navigationRightConst.addEventListener("click", function(){
+		changeActived();
+	});
+  })
+```
 ### Récupérer une partie d'une chaine de caractère 
 
 Il est important de savoir qu'une chaine de caractère type string est enfaite un tableau de caractère 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4daa8c2a2a3e3cd1",
+        "id": "e39a6524b92b23fe",
         "type": "tabs",
         "children": [
           {
-            "id": "5294eed711fa9e65",
+            "id": "38e830b5af2caecf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Général/PHP/HELP !.md",
+                "file": "Important/Breakpoint.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "urls",
+                "query": "youtu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Général/PHP/HELP !.md",
+                "file": "Important/Breakpoint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Général/PHP/HELP !.md",
+                "file": "Important/Breakpoint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Général/PHP/HELP !.md"
+                "file": "Important/Breakpoint.md"
               }
             }
           },
@@ -144,7 +144,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -165,43 +167,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5294eed711fa9e65",
+  "active": "f3b30f1b1e274ead",
   "lastOpenFiles": [
-    "Général/PHP/PHP.md",
-    "Général/PHP/HELP !.md",
-    "Général/Template/Template.md",
-    "Général/CSS/3.Intégration.md",
-    "Général/CSS/2.Dev site.md",
-    "Général/CSS/CSS tricks.md",
-    "Général/CSS/CSS.md",
-    "Général/CSS/Flex.md",
-    "Général/CSS/1.Git site.md",
-    "Réponses.md",
-    "Général/Template/Paris.md",
-    "Général/Template/FF2I.md",
-    "Pasted image 20231123163637.png",
-    "Général/Template/Alfa.md",
-    "Général/Template/Animal.md",
-    "Général/Attachment/css-flexbox-poster.png",
-    "Général/Attachment/Pasted image 20231123145938.png",
-    "Général/Attachment/Pasted image 20230907131425.png",
-    "Général/Attachment/Pasted image 20230216132614.png",
-    "Général/Attachment/Pasted image 20230216132516.png",
-    "Général/Attachment/Pasted image 20230216111759.png",
-    "Général/Attachment/Pasted image 20230213142402.png",
-    "Général/Attachment/Pasted image 20230116131014.png",
-    "Général/Attachment/Pasted image 20221221095950.png",
-    "Général/Template/Love.md",
-    "Général/HTML/HTML.md",
-    "Général/Template/Général.md",
-    "Général/Module/Vik restaurant.md",
-    "Général/Module/Ba-Gallery.md",
-    "Général/JS/JS.md",
-    "Général/Template/Studio.md",
-    "Général/Template/Military.md",
-    "Général/Template/Ramirezz.md",
+    "Joomla/CSS/1.Git site.md",
+    "Joomla/CSS/2.Dev site.md",
+    "Important/Breakpoint.md",
+    "Important/Réponses.md",
+    "Important/OVH.md",
+    "Important/Migration.md",
+    "Wordpress/Forminator.md",
+    "Wordpress/block/Actualité.md",
+    "Wordpress/Elementor/Installation.md",
+    "Joomla/Verification.md",
+    "Joomla/Liens Utiles.md",
+    "Joomla/Home.md",
+    "Joomla/PHP/HELP !.md",
+    "Joomla/HTML/HTML.md",
+    "Wordpress/Git site.md",
+    "Wordpress/CSS.md",
+    "Joomla/CSS/CSS tricks.md",
+    "Joomla/CSS/CSS.md",
+    "Wordpress/PHP -Wordpress.md",
+    "Wordpress/Informations.md",
+    "Joomla/CSS/3.Intégration.md",
+    "Joomla/CSS/Flex.md",
+    "Wordpress/Mod social links.md",
+    "Wordpress/block",
+    "PHP.md",
     "htaccess.md",
-    "2023-09-25.md",
+    "Tuto/DJ-ImageSlider.md",
+    "Tuto",
+    "Joomla/Attachment/Pasted image 20230216111759.png",
+    "Joomla/Attachment/Pasted image 20231123145938.png",
+    "Joomla/Attachment/Pasted image 20231123163637.png",
+    "Joomla/Attachment/Pasted image 20230216132614.png",
+    "Joomla/Attachment/Pasted image 20230907131425.png",
+    "Joomla/Attachment/Pasted image 20230216132516.png",
+    "Joomla/Attachment/Pasted image 20230213142402.png",
+    "Joomla/Attachment/Pasted image 20230126131345.png",
+    "Joomla/Attachment/Pasted image 20230116131014.png",
+    "Joomla/Attachment/Pasted image 20221221095950.png",
+    "Important",
     "Wordpress",
     "Wordpress/Elementor",
     "Untitled 3.canvas",
@@ -209,7 +215,7 @@
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Général/JS",
-    "Général/Module"
+    "Joomla/JS",
+    "Joomla/Module"
   ]
 }

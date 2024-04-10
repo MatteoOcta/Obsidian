@@ -1,7 +1,5 @@
 ## Tickets : 
 
-# Réponse du ticket d'intégration
-
 **PV LE XX-XX-XXXX**
 
 **Information(s) complémentaire(s) :**
@@ -17,3 +15,15 @@ Vous trouverez ci-dessous vos identifiants pour modifier les textes et images su
 - Se connecter sur **LIEN DU BACK OFFICE**
 - Identifiant : xxx
 - Mot de passe : xxx
+
+
+## Mail
+
+Bonjour !
+
+Voici toutes les informations nécessaires pour vous connecter a votre boite mail 
+
+**Vos identifiants :**
+
+ Nom d’utilisateur : 
+  Mot de passe : 
