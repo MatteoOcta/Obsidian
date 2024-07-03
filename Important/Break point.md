@@ -6,21 +6,18 @@
 }
 
 @media (max-width: 820px) {
-  .flex {
-    flex-direction: column;
-  }
-  .flex > * {
-    width: 100%;
-    --basis: 100% !important;
-  }
 }
 
 @media (max-width: 768px) {
 }
 
 @media (max-width: 450px) {
-  .flex {
-    padding-inline: 25px;
-  }
 }
 ```
+
+## Media WordPress
+
+1400px
+1099px
+850px
+550px
